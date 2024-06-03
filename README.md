@@ -36,7 +36,7 @@ base64_in_registry_creation,TA0011,Command and Control,T1105,Ingress Tool Transf
 
 ## Sample output (JSON)
 ```
-(rule_manager)  ✘ dan@studio  ~/Documents/detections/rule_manager   update  cat yara_rule_info_with_names.json| jq .
+(rule_manager)  ✘ dan@studio ~/Documents/detections/rule_manager - update ~ cat yara_rule_info_with_names.json| jq .
 [
   {
     "rule_name": "lolbin_regsvr32_and_rundll_usage",
